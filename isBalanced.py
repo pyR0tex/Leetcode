@@ -1,5 +1,6 @@
 # 110. Balanced Binary Tree
-from BinarySearchTree import Node 
+from BinarySearchTree import Node
+
 
 
 def isBalanced(root: Node) -> bool:
