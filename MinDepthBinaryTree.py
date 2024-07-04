@@ -1,16 +1,13 @@
 # 111. Minimum Depth of Binary Tree
 
-from BinarySearchTree import Node
-from BinarySearchTree import BinarySearchTree as BST
+from BinarySearchTree import BinaryTree
 
 def minDepth(root) -> int:
     print("min depth of binary tree")
 
 
 if __name__ == '__main__':
-    bst = BST()
-    values = [3,9,20,15,7]
-    root = None
-    for v in values:
-        root = bst.insert(root, v)
-    bst.inOrderBST()
+    tree = BinaryTree()
+    nodes = [3,9,20,None,None,15,7]
+    root = tree.CreateTree_LeetCode(nodes)
+    tree.printTree()
