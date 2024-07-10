@@ -63,12 +63,7 @@ class BinaryTree:
     
     def printTree(self):
         '''
-        def _print_tree(node, level=0):
-            if node:
-                _print_tree(node.left, level + 1)
-                print('   ' * level + str(node.val))
-                _print_tree(node.right, level + 1)
-        _print_tree(self.root)
+        HELPER FUNCTION TO VISUALIZE THE TREE
         '''
 
         if not self.root:
@@ -188,5 +183,5 @@ if __name__ == '__main__':
     preOrder = tree.preOrderBST()
     print(f"Pre-Order: {[_ for _ in preOrder]}")
 
-    postOrder = tree.postOrderBST(True)
+    postOrder = tree.postOrderBST()
     print(f"Post-Order: {[_ for _ in postOrder]}")
