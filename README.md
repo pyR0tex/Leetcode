@@ -1,2 +1,2 @@
 # Leetcode
-This repo contains all of my leetcode solutions
+This repo contains my leetcode solutions + test cases.
